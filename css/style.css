@@ -1,0 +1,298 @@
+*{}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+header{
+	background: #306567 url(../images/banner.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	background-blend-mode: soft-light;
+}
+
+header .row{
+	min-height: 80vh;
+}
+
+.contactHead{
+	font-size: 14px;
+}
+
+#navbarSupportedContent ul li a{
+	color: #B8D2D3;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+#navbarSupportedContent ul li a:hover{
+	color: #fff;
+}
+
+.navButton{
+	background-color: #688080;
+	max-width: 120px;
+}
+
+
+.banner-content h1,p{
+	color: #F4FFFF;
+	font-weight: 500;
+}
+
+.banner-content a{
+	padding: 13px 50px;
+	font-size: 15px;
+	background-color: #6FB048;
+	font-weight: 550;
+	border: none;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.featureSection p{
+	color: #8AA09E;
+	font-size: 14px;
+	font-weight: 520;
+}
+
+.featureSection h2,h6{
+	font-weight: 520;
+	color: #1A5551;
+}
+
+.feature img{
+	padding-bottom: 25px;
+	height: 70px;
+	width: 50px; 
+}
+
+.feature2 img{
+	height: 35px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.template{
+	background-image: url(../images/perfect-template.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.template h3{
+	color: #1A5551;
+	font-weight: 300;
+}
+
+.template p{
+	color: #8AA09E;
+	font-weight: 520;
+	font-size: 14px;
+}
+
+.template i{
+	font-size: 25px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+
+.about {
+	height: 70%;
+	
+}
+
+.about h5 {
+	line-height: 2.2;
+	color: #8AA09E;
+}
+
+.designation {
+	color: #8AA09E;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+.details h2{
+	color: #1A5551;
+}
+
+.details p{
+	color: #8AA09E;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.pricing p{
+	color: #8AA09E;
+	font-size: 14px;
+	/*line-height: 0.5;*/
+}
+
+.pricing h1, h6, h3{
+	color: #1A5551;
+	line-height: 0.8;
+}
+
+.pricing h5{
+	font-size: 16px;
+	line-height: 3;
+}
+
+.pDetails{
+	line-height: 2.5;
+}
+
+.pButton{
+	padding: 10px 30px;
+	font-size: 14px;
+	background-color: #82A7A4;
+}
+.pButton:hover{
+	background-color: #6FB048;
+}
+
+
+.pricing h4{
+	color: #1A5551;
+}
+
+.allPlan p span{
+	font-size: 22px;
+	padding-right: 8px;
+}
+
+
+.support{
+	color: #1A5551;
+	font-size: 16px;
+	font-weight: 550;
+}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.download {
+	background-image: url(../images/download.png);
+	height: 100%;
+}
+
+.download h2{
+	color: #1A5551;
+	line-height: 0.8;
+}
+
+.download p{
+	color: #8AA09E;
+}
+
+.download a{
+	padding: 12px 25px; 
+	font-size: 14px;
+	background-color: #6FB048;
+}
+
+.download a:hover{
+	background-color: #9ae070;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+footer h4, h6{
+	color: #1A5551;
+	line-height: 2;
+}
+
+footer p{
+	color: #8AA09E;
+	line-height: 1.5;
+
+}
+
+
+
+footer form{
+	background-color: #EFF1EC;
+}
+
+footer form input{
+	border: 0;
+	background-color: transparent;
+	font-size: 14px;
+	padding: 10px 20px;
+	color: #1A5551;
+}
+
+footer form button{
+	border: 0;
+	background-color: transparent;
+	margin: 0;
+}
+
+
+footer a{
+	border-radius: 50%;
+	font-size: 30px;
+}
+
+footer a:hover{
+	text-decoration: none;
+}
+
+.twitter{
+	color: #48AAF1;
+	
+	padding-right: 12px;
+}
+
+.facebook{
+	color: #375899;
+	
+	padding-right: 12px;
+}
+
+.instagram{
+	color: #336E9B;
+	
+	padding-right: 12px;
+}
+
+.dribble {
+	color: #E23E7D;
+	
+	padding-right: 12px;
+}
+
+.github{
+	color: #000;
+	
+	padding-right: 12px;
+}
+
+
+footer p a{
+	color: #1A5551;
+	font-weight: 550;
+	font-size: 16px !important;
+}
+
+footer p a:hover{
+	color: #1A5551;
+	text-decoration: none;
+}
