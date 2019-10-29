@@ -1,16 +1,16 @@
-*{}
 
 body{
 	font-family: 'Roboto', sans-serif;
 }
 
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~HEADER SECTION STARTS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 header{
 	background: #306567 url(../images/banner.jpg);
 	background-attachment: fixed;
 	background-size: cover;
-	background-blend-mode: soft-light;
+  background-blend-mode: soft-light;
+  background-position: center;
 }
 
 header .row{
@@ -51,7 +51,7 @@ header .row{
 }
 
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FEATURE SECTION STARTS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 .featureSection p{
@@ -76,14 +76,17 @@ header .row{
 }
 
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~tEMPLATE SECTION STARTS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .template{
 	background-image: url(../images/perfect-template.jpg);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 .template h3{
@@ -101,7 +104,9 @@ header .row{
 	font-size: 25px;
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ABOUT SECTION STARTS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 
@@ -121,7 +126,7 @@ header .row{
 
 
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DETAILS SECTION STARTS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 
 .details h2{
@@ -136,7 +141,7 @@ header .row{
 
 
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~PRICING SECTION STARTS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .pricing p{
 	color: #8AA09E;
@@ -186,7 +191,7 @@ header .row{
 
 
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~DOWNLOAD SECTION STARTS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 .download {
 	background-image: url(../images/download.png);
@@ -212,7 +217,7 @@ header .row{
 	background-color: #9ae070;
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~FOOTER SECTION STARTS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 footer h4, h6{
 	color: #1A5551;
@@ -222,20 +227,19 @@ footer h4, h6{
 footer p{
 	color: #8AA09E;
 	line-height: 1.5;
-
 }
 
 
-
 footer form{
-	background-color: #EFF1EC;
+  background-color: #EFF1EC;
+  max-width: 230px;
 }
 
 footer form input{
 	border: 0;
 	background-color: transparent;
 	font-size: 14px;
-	padding: 10px 20px;
+	padding: 10px 5px;
 	color: #1A5551;
 }
 
@@ -257,31 +261,26 @@ footer a:hover{
 
 .twitter{
 	color: #48AAF1;
-	
 	padding-right: 12px;
 }
 
 .facebook{
 	color: #375899;
-	
 	padding-right: 12px;
 }
 
 .instagram{
 	color: #336E9B;
-	
 	padding-right: 12px;
 }
 
 .dribble {
 	color: #E23E7D;
-	
 	padding-right: 12px;
 }
 
 .github{
 	color: #000;
-	
 	padding-right: 12px;
 }
 
@@ -295,4 +294,17 @@ footer p a{
 footer p a:hover{
 	color: #1A5551;
 	text-decoration: none;
+}
+
+
+
+
+
+/* ____________________________MEDIA QUERIES__________________________________ */
+
+
+@media (max-width: 575.98px) { 
+  .download h2{
+    line-height: 1;
+  }
 }
